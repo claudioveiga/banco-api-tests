@@ -16,7 +16,7 @@ describe('Login', () => {
 			expect(resposta.body.token).to.be.a('string');
 		})
         it('Deve retornar 400 ao não ser enviadas as credenciais', async () => {
-            const resposta = await request('http://localhost:3000')
+            const resposta = await request(process.env.BASE_URL)
 				.post('/login')
 				.set('Content-Type', 'application/json')
 				.send({
