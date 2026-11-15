@@ -53,7 +53,7 @@ banco-api-tests/
 ├── test/
 │   ├── login.test.js
 │   ├── transferencias.test.js 
-│	  └── ...
+│   └── ...
 ├── mochawesome/
 ├── package.json
 ├── package-lock.json
